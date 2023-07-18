@@ -1,0 +1,149 @@
+
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 1.1em;
+    text-align: center;
+    margin: 0;
+    padding:0;
+}
+
+.full {
+    width: 300px;
+    height:auto;
+}
+
+
+.script {
+    display:flex;
+    justify-content: flex-end;
+}
+
+h1 {
+    color: rgb(12, 12, 12);
+    font-family: 'Kanit', sans-serif;
+}
+
+
+.nav {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.links a {
+text-decoration: none;
+color: rgb(14, 13, 13);
+padding-left: 10px;
+font-family: 'Kanit', sans-serif
+}
+
+.holy-grail header, 
+.holy-grail footer, 
+.hg-sidebar, 
+.holy-grail-content {
+    padding: 20px;
+    background-size: contain;
+    
+}
+
+.holy-grail-content {
+   background-image: url("https://images.pexels.com/photos/11816677/pexels-photo-11816677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    /* background-image: url("pexels-fwstudio-129731.jpg"); */
+    /* background-image:url("https://getwallpapers.com/wallpaper/full/c/6/3/489516.jpg") ; */
+    /* background-image: url("https://cdn.wallpapersafari.com/82/15/5etG19.jpg"); */
+    /* background-image: url("desktop-wallpaper-abstract-red-color-geometric-modern-design-vector-backgrounds-red-color-background.jpg"); */
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/000/634/426/original/red-grid-mosaic-background-creative-design-templates-vector.jpg"); */
+    /* background-image: url("https://static.vecteezy.com/system/resources/previews/006/076/792/original/10-abstract-modern-attractive-black-and-red-background-free-vector.jpg");
+     */
+
+   
+    background-size: cover;
+    color: rgb(12, 12, 12);
+    
+
+    
+}
+
+.holy-grail header, 
+.holy-grail footer {
+    color: rgb(12, 12, 12);
+    /* background-image: url("wp3174216.jpg") */
+    /* background-image: url("https://img.freepik.com/premium-vector/abstract-panoramic-web-background-red-squares-vector_532963-3719.jpg?w=2000"); */
+    
+
+   
+ 
+}
+
+.hg-sidebar {
+    background-image: url(pexels-fwstudio-129731.jpg);
+    background-color: rgb(12, 11, 11);
+    color: rgb(10, 10, 10);
+}
+
+.holy-grail-content {
+
+    /* background-color: yellow; */
+    flex: 1 1 auto;
+
+}
+
+/* Flex-Box */
+.holy-grail {
+    min-height: 100vh;
+}
+
+.holy-grail, .holy-grail-body {
+    display:flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+.holy-grail-sidebar-1 {
+    order: -1;
+}
+
+@media (min-width: 768px) {
+    .holy-grail-body {
+        flex-direction: row;
+    }
+
+    .hg-sidebar {
+        flex: 0 0 260px;
+    }
+}
+
+/* new stuff */
+.link {
+    box-sizing: border-box;
+    position: center;
+    height: 80px;
+    padding: -20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    box-shadow: 0 -2px 4px -px rgb(70, 238, 4);
+   
+   
+}
+
+.link, 
+.media-link {
+    height: 50px;
+  }
+  
+  link a {
+    margin-right: 64px;
+    text-decoration: none;
+
+  }
+  
+  link a:last-child {
+    margin-right: 0;
+  }
+  
+ 
