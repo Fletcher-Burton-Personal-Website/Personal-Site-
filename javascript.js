@@ -1,7 +1,7 @@
 let today = new Date();
 let hourNow = today.getHours();
 let greeting;
-let greeting2 = " And thanks for checking out my page"
+let greeting2 = " and thanks for checking out my page"
 
 if(hourNow > 18){
 greeting = 'Good Evening!'
